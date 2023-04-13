@@ -1,0 +1,21 @@
+.Nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 8rem;
+  background: linear-gradient(90deg, #0063b4 10%, #649dcc 100%);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+}

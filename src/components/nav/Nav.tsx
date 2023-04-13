@@ -1,3 +1,5 @@
+import './Nav.css';
+
 const Nav = () => {
   return (
     <nav className="Nav">
@@ -6,7 +8,7 @@ const Nav = () => {
           <a href="#">Inicio</a>
         </li>
         <li>
-          <a href="#">Pelilculas</a>
+          <a href="#">Peliculas</a>
         </li>
         <li>
           <a href="#">Blog</a>

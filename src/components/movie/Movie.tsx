@@ -1,10 +1,14 @@
+import './Movie.css';
+
 const Movie = () => {
   return (
-    <div>
-      <h2>Titulo de la pelicula</h2>
-      <h3>Descripción</h3>
-      <button>Editar</button>
-      <button>Borrar</button>
+    <div className="Movie">
+      <h2 className="MovieTitle">Titulo de la pelicula</h2>
+      <h3 className="MovieDescription">Descripción</h3>
+      <div className="MovieButtons">
+        <button className="EditButton">Editar</button>
+        <button className="DeleteButton">Borrar</button>
+      </div>
     </div>
   );
 };

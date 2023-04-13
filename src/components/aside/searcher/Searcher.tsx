@@ -1,9 +1,11 @@
+import './Searcher.css';
+
 const Searcher = () => {
   return (
-    <div>
-      <h3>Buscador</h3>
+    <div className="Searcher">
+      <h3 className="SearcherTitle">Buscador</h3>
       <input type="text" />
-      <button>Buscar</button>
+      <button className="SearcherButton">Buscar</button>
     </div>
   );
 };

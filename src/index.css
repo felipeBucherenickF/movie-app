@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #ffa726;
+  --secondary-color: #277bc0;
+  --terciary-color: #fff4cf;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +12,42 @@
 
 html {
   font-size: 62.5%;
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  /* font-family: 'Anton', sans-serif; */
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  /* background-color: var(--secondary-color); */
+  width: 11rem;
+  height: 5rem;
+  border: none;
+  border-radius: 0.7rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  background-color: rgb(248, 248, 248);
+  border: none;
+  border-radius: 0.7rem;
+  width: 80%;
+  height: 4rem;
+  padding-left: 1rem;
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  outline-color: lightgray;
+}
+
+textarea {
+  height: 6rem;
 }

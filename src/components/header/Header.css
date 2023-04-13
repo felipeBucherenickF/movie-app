@@ -1,0 +1,14 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  height: 12rem;
+}
+
+.Title {
+  font-family: 'Anton', sans-serif;
+  color: var(--secondary-color);
+  font-size: 4.2rem;
+}

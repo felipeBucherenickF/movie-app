@@ -10,7 +10,6 @@ function App() {
       <Header></Header>
       <Nav></Nav>
       <Main></Main>
-      <Aside></Aside>
     </>
   );
 }

@@ -1,10 +1,12 @@
+import './AddMovie.css';
+
 const AddMovie = () => {
   return (
-    <div>
-      <h3>Añadir Pelicula</h3>
+    <div className="AddMovie">
+      <h3 className="AddMovieTitle">Añadir Pelicula</h3>
       <input type="text" placeholder="Titulo" />
-      <textarea name="Descripción" id="" cols="30" rows="10"></textarea>
-      <button>Guardar</button>
+      <textarea name="Descripción" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
+      <button className="AddMovieButton">Guardar</button>
     </div>
   );
 };

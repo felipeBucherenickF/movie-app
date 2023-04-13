@@ -1,13 +1,13 @@
-import Movie from '../movie/Movie';
+import Aside from '../aside/Aside';
+import MovieList from '../movie-list/MovieList';
+import './Main.css';
 
 const Main = () => {
   return (
-    <>
-      <Movie></Movie>
-      <Movie></Movie>
-      <Movie></Movie>
-      <Movie></Movie>
-    </>
+    <main className="Main">
+      <MovieList></MovieList>
+      <Aside></Aside>
+    </main>
   );
 };
 
