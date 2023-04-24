@@ -5,7 +5,7 @@ const AddMovie = () => {
     <div className="AddMovie">
       <h3 className="AddMovieTitle">Añadir Pelicula</h3>
       <input type="text" placeholder="Titulo" />
-      <textarea name="Descripción" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
+      <textarea name="Descripción" placeholder="Descripción"></textarea>
       <button className="AddMovieButton">Guardar</button>
     </div>
   );

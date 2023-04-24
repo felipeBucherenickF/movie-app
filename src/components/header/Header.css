@@ -9,6 +9,6 @@
 
 .Title {
   font-family: 'Anton', sans-serif;
-  color: var(--secondary-color);
   font-size: 4.2rem;
+  color: var(--secondary-color);
 }

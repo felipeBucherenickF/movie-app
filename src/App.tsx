@@ -1,5 +1,5 @@
 import './App.css';
-import Aside from './components/aside/Aside';
+import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Main from './components/main/Main';
 import Nav from './components/nav/Nav';
@@ -10,6 +10,7 @@ function App() {
       <Header></Header>
       <Nav></Nav>
       <Main></Main>
+      <Footer></Footer>
     </>
   );
 }
