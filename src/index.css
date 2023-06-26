@@ -12,7 +12,10 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+body {
+  position: relative;
 }
 
 a {
@@ -42,7 +45,7 @@ textarea {
   width: 80%;
   height: 4rem;
   padding-left: 1rem;
-  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-family: "Sofia Sans Condensed", sans-serif;
   outline-color: lightgray;
 }
 

@@ -1,12 +1,15 @@
-import Aside from '../aside/Aside';
-import MovieList from '../movie-list/MovieList';
-import './Main.css';
+import { useState } from "react";
+import Aside from "components/aside/Aside";
+import MovieList from "components/movie-list/MovieList";
+import "./Main.css";
 
 const Main = () => {
+  const [movieList, setMovieList] = useState([]);
+
   return (
     <main className="Main">
-      <MovieList></MovieList>
-      <Aside></Aside>
+      <MovieList movieList={movieList} setMovieList={setMovieList}></MovieList>
+      <Aside movieList={movieList} setMovieList={setMovieList}></Aside>
     </main>
   );
 };
